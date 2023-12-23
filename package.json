@@ -1,37 +1,38 @@
 {
   "name": "fca-naughty1",
-  "version": "1.4.3",
-  "description": "FCAEBOOK CHAT API BY NAUGHTY",
-  "main": "Index.js",
+  "version": "1.6.0",
+  "description": "Facebook-chat-api by Naughty",
+  "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "lint": "./node_modules/.bin/eslint *.js",
+    "lint": "./node_modules/.bin/eslint **.js",
     "prettier": "prettier utils.js src/* --write"
   },
-  "author": "NAUGHTY",
+  "author": "Naughty",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/"
+    "url": ""
   },
-  "homepage": "https://github.com",
+  "homepage": "",
   "repository": {
     "type": "git",
-    "url": "git://github.com/"
+    "url": ""
   },
   "dependencies": {
     "aes-js": "latest",
+    "fs-extra": "^11.1.1",
     "assert": "latest",
+    "better-sqlite3": "7.4.5",
     "bluebird": "latest",
     "chalk": "4.1.2",
     "cheerio": "latest",
     "crypto-js": "latest",
-    "deasync": "^0.1.28",
-    "encode32": "latest",
     "express": "latest",
     "file-url": "^3.0.0",
-    "got": "^11.8.6",
+    "got": "^11.8.3",
     "https-proxy-agent": "latest",
     "is-hexcolor": "^1.0.0",
+    "lodash": "latest",
     "moment": "^2.29.4",
     "mqtt": "latest",
     "npmlog": "latest",
@@ -41,19 +42,18 @@
     "readline": "latest",
     "request": "latest",
     "semver": "^7.4.0",
+    "sqlite": "4.0.21",
     "totp-generator": "latest",
-    "tough-cookie": "^4.1.2",
     "uuid": "latest",
-    "vm": "^0.1.0",
-    "lodash": "latest",
-    "better-sqlite3": "7.6.2",
+    "encode32": "latest",
+    "tough-cookie": "^4.1.2",
     "websocket-stream": "latest"
   },
   "engines": {
-    "node": ">=14.x"
+    "node": ">=14.x <16.x"
   },
   "devDependencies": {
-    "eslint": "^8.40.0",
+    "eslint": "latest",
     "mocha": "latest",
     "prettier": "latest"
   },
@@ -84,9 +84,10 @@
     }
   },
   "keywords": [
-    "",
-    "",
-    "",
-    ""
+
+"",
+""
+
+    
   ]
 }
